@@ -6,7 +6,7 @@
 /*   By: aamorin- <aamorin-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/03 19:29:38 by aamorin-          #+#    #+#             */
-/*   Updated: 2021/08/15 13:18:59 by aamorin-         ###   ########.fr       */
+/*   Updated: 2021/08/15 14:28:41 by aamorin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ void	rrb_pb(int *b, int i)
 
 void	pa(int *a, int *b, int count, int i)
 {
-	new_pb_add(a, b[0], i + 1);
+	new_pb_add(a, b[0], i);
 	ra_pb(b, count);
 	ft_printf("pa\n");
 }

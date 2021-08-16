@@ -6,7 +6,7 @@
 /*   By: aamorin- <aamorin-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/26 16:13:22 by aamorin-          #+#    #+#             */
-/*   Updated: 2021/08/15 13:14:22 by aamorin-         ###   ########.fr       */
+/*   Updated: 2021/08/15 14:32:37 by aamorin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,5 @@ int	main(int items, char *argv[])
 		push_swap(argv, -1);
 		return (0);
 	}
-	ft_printf("Error\n");
 	return (0);
 }

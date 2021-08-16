@@ -6,7 +6,7 @@
 /*   By: aamorin- <aamorin-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/15 13:19:32 by aamorin-          #+#    #+#             */
-/*   Updated: 2021/08/15 13:22:49 by aamorin-         ###   ########.fr       */
+/*   Updated: 2021/08/15 15:28:00 by aamorin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,6 @@ int	get_mid_value(int *a, int items)
 
 	j = get_lower(a, items);
 	if (items > 50)
-		return (a[j] + 15);
-	if (items > 99)
 		return (a[j] + 30);
 	return (a[j] + (items - 3) / 2);
 }

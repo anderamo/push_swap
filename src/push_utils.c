@@ -6,7 +6,7 @@
 /*   By: aamorin- <aamorin-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/05 12:31:02 by aamorin-          #+#    #+#             */
-/*   Updated: 2021/08/15 13:21:56 by aamorin-         ###   ########.fr       */
+/*   Updated: 2021/08/15 14:34:52 by aamorin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,7 +84,7 @@ void	push_swap(char **argv, int i)
 	while (items > ++i)
 		a[i] = ft_atoi_perf(argv[i]);
 	repet_it(a, items);
-	b = malloc((items - 3) * sizeof(int));
+	b = malloc((items) * sizeof(int));
 	if (!is_sorted(a, items))
 	{
 		if (i == 2)

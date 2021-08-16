@@ -6,7 +6,7 @@
 /*   By: aamorin- <aamorin-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/04 13:26:54 by aamorin-          #+#    #+#             */
-/*   Updated: 2021/08/04 17:52:59 by aamorin-         ###   ########.fr       */
+/*   Updated: 2021/08/15 14:41:51 by aamorin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,5 @@ int	main(int items, char *argv[])
 		b = malloc(stack_values.a_size * sizeof(long));
 		checker(a, b, stack_values);
 	}
-	ft_printf("\033[0;31mError\n");
 	return (0);
 }

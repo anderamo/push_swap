@@ -6,7 +6,7 @@
 /*   By: aamorin- <aamorin-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/04 14:07:03 by aamorin-          #+#    #+#             */
-/*   Updated: 2021/08/04 16:27:10 by aamorin-         ###   ########.fr       */
+/*   Updated: 2021/08/15 14:41:56 by aamorin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,10 @@ long	operations_exist(char *operations)
 		|| ft_strcmp(operations, "rr\n"))
 		return (1);
 	else
+	{
+		ft_printf("\033[0;31mError\n");
 		return (0);
+	}
 }
 
 t_values	do_operations_2(char *operations, long **a, long **b,
